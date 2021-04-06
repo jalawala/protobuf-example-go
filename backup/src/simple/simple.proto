@@ -1,6 +1,8 @@
 syntax = "proto3";
 
-option go_package = "simple\simple";
+package example.simple;
+
+option go_package = "simplepb";
 
 message SimpleMessage {
   int32 id = 1;
