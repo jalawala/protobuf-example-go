@@ -1,6 +1,7 @@
 syntax = "proto3";
 
-option go_package = "simple\simple";
+//option go_package = "simple\simpledb";
+option go_package = "example.com/proto/simpledb";
 
 message SimpleMessage {
   int32 id = 1;
